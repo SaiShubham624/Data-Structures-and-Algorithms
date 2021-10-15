@@ -1,0 +1,19 @@
+{
+    
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": ["comment.block.cpp", "comment.line.double-slash.cpp"],
+                "settings": {
+                    "foreground": "#96aefd"
+                }
+            }
+        ]
+    },
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "istream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
+}
