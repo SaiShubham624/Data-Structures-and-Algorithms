@@ -15,6 +15,7 @@ Trivia:
             from the given index in the string
         (c) to_string(different datatype to change) => Turns the given datatype into a string
             For Ex => to_string(123) will return string "123"
+        (d) atoi(string) => Changes a string into a int WARNING: the string should contain only integers
 */
 
 
@@ -37,7 +38,7 @@ int main(){
     {
         cout << sArray[i] << endl;
     }
-       
+    string a = "123";
     system("pause"); //For Debugging, ignore it
     return 0;
 }
