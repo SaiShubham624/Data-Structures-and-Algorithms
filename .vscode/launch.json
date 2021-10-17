@@ -22,8 +22,7 @@
                     "description": "Enable pretty-printing for gdb",
                     "text": "-enable-pretty-printing",
                 }
-            ],
-            "preLaunchTask": "C/C++: g++.exe build active file"
+            ]
         }
     ]
 }
