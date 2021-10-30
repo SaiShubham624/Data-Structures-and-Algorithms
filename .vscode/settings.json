@@ -1,14 +1,16 @@
 {
     "tasksStatusbar.taskLabelFilter": "[build]",
     "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": ["comment.block.cpp", "comment.line.double-slash.cpp"],
-                "settings": {
-                    "foreground": "#96aefd"
+        "[Cobalt2]": {
+            "textMateRules": [
+                {
+                    "scope": ["comment.block.cpp", "comment.line.double-slash.cpp"],
+                    "settings": {
+                        "foreground": "#96aefd"
+                    }
                 }
-            }
-        ]
+            ]
+        },        
     },
     "files.associations": {
         "iostream": "cpp",
