@@ -6,15 +6,8 @@ Problem: You have to add m, n times. Basically multiply m without using * operat
 */
 
 int multi(int m, int n){
-    if (n == 0)
-    {
-        return 0;       
-    }
-    
-    int recursive_case = multi(m, n-1);
-
-    return m + recursive_case;
-
+    if(n == 0) return 0;
+    return m + multi(m, n-1);
 }
 
 int main(){
