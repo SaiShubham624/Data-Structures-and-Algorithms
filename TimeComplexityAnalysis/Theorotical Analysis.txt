@@ -1,0 +1,7 @@
+The Main Approach of the TA is 'Find out the Time Complexity without writing the Code'
+Steps for Theorotical Analysis:
+    1. Figure out the solutions
+    2. Try to find the formula(polynomial) of the solution
+    3. Use the Big O Notation Rules in the formula
+        a) Remove the Cofficients from it
+        b) Find the Highest Degree in the said polynomial
