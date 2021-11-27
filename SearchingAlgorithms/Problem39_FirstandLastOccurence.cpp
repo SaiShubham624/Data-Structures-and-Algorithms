@@ -42,13 +42,3 @@ int getLastOccurence(int arr[], int s, int e, int x){
     return result;
 }
 
-int main(){
-    // Example Array
-    int arr[9] = {1, 3, 5, 5, 5, 5, 67, 123, 125};
-    // The Element to Work on
-    int x = 5;
-    int firstIndex = getFirstOccurence(arr, 0, 8, x);
-    int lastIndex = getLastOccurence(arr, 0, 8, x);
-    cout << "The Result is (" << firstIndex << ", " << lastIndex << ") "<< endl;
-    return 0;
-}
