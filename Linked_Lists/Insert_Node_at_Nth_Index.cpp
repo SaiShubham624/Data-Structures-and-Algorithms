@@ -34,6 +34,7 @@ Node* insertAt(Node* head, int x, int n){
         head = newNode;
         return head;
     }
+    Node* copyhead = head;
     int count = 0;
     while(count <= n-1 && head != NULL){
         head = head->next;
@@ -42,7 +43,7 @@ Node* insertAt(Node* head, int x, int n){
     if(head != NULL){
         newNode->next = head->next;
         head->next = newNode;
-        return head;
+        return copyhead;
     }
     else{
         cout << "Out Of Range" << endl;
